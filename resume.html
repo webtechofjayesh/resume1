@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script>
+      $(document).ready(function(){
+         $('#det').click(function(){
+            $('#edu1').hide();
+            $('#cou1').hide();
+            $('#tech1').hide();
+            $('#str1').hide();
+            $('#det1').fadeIn(2000);
+         });
+         $('#edu').click(function(){
+            $('#det1').hide();
+            $('#cou1').hide();
+            $('#tech1').hide();
+            $('#str1').hide();
+            $('#edu1').fadeIn(2000);
+         });
+          $('#cou').click(function(){
+            $('#edu1').hide();
+            $('#det1').hide();
+            $('#tech1').hide();
+            $('#str1').hide();
+            $('#cou1').fadeIn(2000);
+         });
+            $('#tech').click(function(){
+            $('#edu1').hide();
+            $('#det1').hide();
+            $('#cou1').hide();
+            $('#str1').hide();
+            $('#tech1').fadeIn(2000);
+         });
+            $('#str').click(function(){
+            $('#edu1').hide();
+            $('#det1').hide();
+            $('#tech1').hide();
+            $('#tech1').hide();
+            $('#str1').fadeIn(2000);
+         });
+      });
+   </script>
+   <style>
+      #det:hover{
+         font-size: 55px;
+      }
+      #cou:hover{
+         font-size: 55px;
+      }
+      #edu:hover{
+         font-size: 55px;
+      }
+      #tech:hover{
+         font-size: 55px;
+      }
+      #str:hover{
+         font-size: 45px;
+      }
+   </style>
+</head>
+<body>
+   <div style="background-image: url('anonymus-peoples-wallpaper.jpg');width: 100%;height: 100vh;background-size: 100% 100vh;position:fixed;">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-md-12" style="height: 650px ">
+                             <div style="float:left ;width:50%;height:650px">
+   				<h1 style="color: black;list-style: none;margin-top: 307px;font-size: 60px;"><b>RESUME</b></h1>
+   				<ul style="list-style: none;font-size: 26px">
+   				<li id=det><a href="#" style="text-decoration: none;color: black"><b>Details</b></a></li>
+   				<li id='edu'><a href="#" style="text-decoration: none;color: black"><b>Academic Details</b></a></li>
+   				<li id='cou'><a href="#" style="text-decoration: none;color: black"><b>Courses</b></a></li>
+   				<li id='tech'><a href="#" style="text-decoration: none;color: black"><b>Technical Skills</b></a></li>
+               <li id='str'><a href="#" style="text-decoration: none;color: black"><b>Additional Strengths</b></a></li>
+   			    </ul>
+                           </div>
+   			
+   			<div style="float:left;width:50%;height: 650px ;color:black">	
+   					<center style="margin-top: 356px;font-size:17px;display: none; " id=det1>
+   						<p><b> Name : </b> YOUR NAME</p>
+   						<p><b>E-mail :</b> ENTER EMAIL</p>
+   						<p><b>Mobile No : </b> ENTER MOBILE NO</p>
+                     <p><b>Address : </b> ENTER ADDRESS</p>
+   		        </center>
+                  <center style="margin-top: 356px;font-size:17px;display: none; " id=edu1>
+                     <p><b> Course : </b> B.Tech</p>
+                     <p><b>Branch :</b> Computer Science AND Engg</p>
+                     <p><b>CGPA : </b> 7.93</p>
+                     <p><b>Graduated At : </b>INSTITUTE NAME</p>
+                  </center>
+                  <center style="margin-top: 356px;font-size:17px;display: none; " id=cou1>
+                     <ol>
+                        <li>course1</li>
+                        <li>course2</li>
+                        <li>course3</li>
+                     </ol>
+                  </center>
+                   <center style="margin-top: 356px;font-size:17px;display: none; " id=tech1>
+                     <ol>
+                     <p><b> Certifications : </b> Enter if any</p>
+                     <p><b>Languages :</b> ENTER Programming Langs</p>
+                     <p><b> Operating Systems : </b> OS u know to work with</p>
+                     </ol>
+                  </center>
+                  <center style="margin-top: 356px;font-size:17px;display: none; " id=str1>
+                     <ol>
+                        <li>Quick Learner</li>
+                        <li>Analytical</li>
+                        <li>Self Motivated</li>
+                     </ol>
+                           </div>
+   			</div>
+   		</div>
+   	</div>
+   	
+   </div>
+</body>
+</html>
